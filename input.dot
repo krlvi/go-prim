@@ -1,0 +1,26 @@
+graph G {
+    rankdir="LR";
+    a;
+    b;
+    c;
+    d;
+    e;
+    f;
+    g;
+    h;
+    a -- b [weight=6,   label=6];
+    a -- d [weight=11,  label=11];
+    a -- f [weight=3,   label=3];
+    b -- c [weight=9,   label=9];
+    b -- e [weight=10,  label=10];
+    b -- d [weight=8,   label=8];
+    c -- h [weight=4,   label=4];
+    c -- e [weight=1,   label=1];
+    d -- e [weight=12,  label=12];
+    d -- g [weight=15,  label=15];
+    d -- f [weight=14,  label=14];
+    e -- h [weight=5,   label=5];
+    e -- g [weight=2,   label=2];
+    f -- g [weight=13,  label=13];
+    g -- h [weight=7,   label=7];
+}
