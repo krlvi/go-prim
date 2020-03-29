@@ -37,7 +37,7 @@ func work() (string, error) {
 
 	var sb strings.Builder
 
-	sb.WriteString("graph G {\n")
+	sb.WriteString("graph T {\n")
 	sb.WriteString("\trankdir=\"LR\";\n")
 	for _, n := range nodes {
 		sb.WriteString(fmt.Sprint("\t", n, ";\n"))
